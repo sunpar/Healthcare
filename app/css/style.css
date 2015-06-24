@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    padding: 0px 10px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    padding: 0px 10px;
+}
+
+
+h1 {
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+
+listbox .s {
+    color: green;
+}
+
+listbox .x {
+    color: rgb(200,200,200);
+}
+

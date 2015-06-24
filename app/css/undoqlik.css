@@ -1,0 +1,218 @@
+body {
+    font-family: Times New Roman;
+    font-size: 16px;
+    color: rgb(0,0,0);
+}
+
+input {
+    font-family: Arial sans-serif;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+textarea {
+    font-family: monospace;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+keygen {
+    font-family: Arial sans-serif;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+select {
+    font-family: Arial sans-serif;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+button {
+    font-family: Arial sans-serif;
+    font-size: 13px;
+    color: rgb(0,0,0);
+}
+
+isindex {
+    font-family: Times New Roman;
+    font-size: 16px;
+    color: rgb(0,0,0);
+}
+
+* {
+    padding: default;
+    margin: default;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.180392);
+    -webkit-touch-callout: default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .83em;
+}
+
+h6 {
+    font-size: .67em;
+}
+
+
+h7 {
+    font-size: 1em;
+}
+
+
+html,
+body {
+    width: auto;
+    height: auto;
+    position: static;
+    overflow: visible;
+}
+
+body {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+input,
+textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+input::-ms-clear {
+    display: inline-block;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: auto;
+}
+
+table th {
+    vertical-align: middle;
+}
+
+hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 1px solid rgb(238, 238, 238);
+    margin: 8px 0;
+    padding: 0;
+}
+
+:focus {
+    outline: 1;
+}
+
+
+
+.qmu body,
+.qmu input,
+.qmu textarea,
+.qmu keygen,
+.qmu select,
+.qmu button,
+.qmu isindex {
+    font-family: "QlikView Sans", sans-serif;
+    font-size: 13px;
+    color: #595959;
+}
+
+.qmu * {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.qmu h1,
+.qmu h2,
+.qmu h3,
+.qmu h4,
+.qmu h5,
+.qmu h6,
+.qmu h7 {
+    font-size: 100%;
+}
+
+.qmu html,
+.qmu body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.qmu body {
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.qmu input,
+.qmu textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.qmu input::-ms-clear {
+    display: none;
+}
+
+.qmu table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.qmu table th {
+    vertical-align: top;
+}
+
+.qmu hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.qmu :focus {
+    outline: none;
+}
