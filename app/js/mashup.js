@@ -5,7 +5,7 @@ require.config( {
 
 // Get the Mashup API to load your module
 window.qvangularNgModules = {
-    spikesApp: ''
+    Healthcare: ''
 };
 
 require( ["js/qlik"], function ( qlik ) {
@@ -16,7 +16,7 @@ require( ["js/qlik"], function ( qlik ) {
 
     var app = qlik.openApp(appid, config);
 
-    app.getObject('QV01','btmscA');
+    //app.getObject('QV01','btmscA');
 
     
 });

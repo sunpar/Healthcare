@@ -1,8 +1,8 @@
 //Create the app module
-var spikesApp = angular.module('spikesApp', ['ngRoute']);
+var Healthcare = angular.module('Healthcare', ['ngRoute']);
 
 // Create the routes for your views
-spikesApp.config(['$routeProvider', function($routeProvider) {
+Healthcare.config(['$routeProvider', function($routeProvider) {
 
     $routeProvider.when('/', {
         templateUrl: routes[0].templateUrl,

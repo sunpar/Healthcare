@@ -1,5 +1,5 @@
 // The Qlik Sense App Service
-spikesApp.service('AppService',['$http','$q', function($http, $q) {
+Healthcare.service('AppService',['$http','$q', function($http, $q) {
     // Variables
     var global_promise,
         app_promise;

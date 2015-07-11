@@ -1,5 +1,5 @@
 // Create main controller which handles websocket updates
-spikesApp.controller('SpikesCtrl',['AppService','$scope',function(AppService,$scope) {
+Healthcare.controller('HealthCtrl',['AppService','$scope',function(AppService,$scope) {
     var self = this;
     $scope.global_promise = AppService.global();
     $scope.app_promise = AppService.app();
@@ -53,8 +53,65 @@ spikesApp.controller('SpikesCtrl',['AppService','$scope',function(AppService,$sc
 
 }]);
 
+//TitleController
+Healthcare.controller('TitleCtrl',['$scope',function($scope) {
+
+    $scope.claimDates = undefined;
+    
+    $scope.app_promise.then(function(app) {
+
+        // Using the Axis API to create a measure
+        var prop =  {
+            'claimDates':{ qValueExpression: '=Min(CLM_THRU_DT)'},     
+            'qInfo': 
+                {
+                'qType': 'qValueExpr',
+                }
+        };
+
+        /*
+        var measure = axisAPI.object()
+                .app(app)
+                .prop(prop)
+                .init(function(object) {
+                    wsSubscribe(object,$scope);
+                    object.paintObj();
+                })
+                .paint(function(object) {
+                    $scope.$apply(function() {
+                        $scope.claimDates = object.layout().claimDates;
+                    });
+                })
+                .create();
+        */
+        var measure = axisAPI.object()
+                .app(app)
+                .prop(prop)
+                .on('create',function(object) {
+                    wsSubscribe(object,$scope);
+                    object.paint();
+                })
+                .on('paint',function(object) {
+                    $scope.$apply(function() {
+                        $scope.claimDates = object.layout().claimDates;
+                    });
+                })
+                .create();
+
+        measure = 
+        _measure = measure;
+
+    });
+
+}]);
+
+
+
+
+
+
 // Example view controllers
-spikesApp.controller('View1Ctrl',['$scope',function($scope) {
+Healthcare.controller('View1Ctrl',['$scope',function($scope) {
 
     $scope.totalSales = undefined;
     
@@ -105,7 +162,7 @@ spikesApp.controller('View1Ctrl',['$scope',function($scope) {
 }]);
 
 // Example view controllers
-spikesApp.controller('View2Ctrl',['$scope',function($scope) {
+Healthcare.controller('View2Ctrl',['$scope',function($scope) {
 
     $scope.regionSales = undefined;
 
@@ -157,6 +214,11 @@ spikesApp.controller('View2Ctrl',['$scope',function($scope) {
 
 }]);
 
+//Sidebar controller
+Healthcare.controller('SidebarCtrl',['$scope',function($scope) {
+
+
+}]);
 
 // Helper functions
 function wsSubscribe(object,scope) {

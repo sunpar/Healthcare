@@ -1,5 +1,5 @@
 // Set your application name / guid
-var appid = 'Executive Dashboard.qvf';
+var appid = 'Healthcare.qvf';
 
 // Set up your server configuration\
 var config = {
@@ -23,5 +23,12 @@ var routes = [
         suffix: 'view2',
         templateUrl:'app/views/view2.html',
         controller:'View2Ctrl as view2Ctrl'
+    },
+    {
+        name:'View 3',
+        suffix: 'view3',
+        templateUrl:'app/views/view3.html',
+        controller:'View2Ctrl as view2Ctrl'
     }
+
 ];

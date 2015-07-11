@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"measure",
+				"measureLabels"
+			],
+			[
+				"H",
+				"H1	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2749,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/css/style.css",
+			"settings":
+			{
+				"buffer_size": 762,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 6307,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/js/axisAPI.js",
+			"settings":
+			{
+				"buffer_size": 3602,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/view1.html",
+			"settings":
+			{
+				"buffer_size": 47,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/app.js",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 219.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/lib/js/qsocks.bundle.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/js/app.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/js/services.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/css/undoqlik.css",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/css/default.css",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/wbfolder.wbl",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/index.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/Healthcare.qext",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/partials/listbox.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/js/directives.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/css/style.css",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/config/config.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/js/controllers.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/views/view1.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/js/mashup.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/views/view3.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/app/views/view2.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/lib/js/axisAPI.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Healthcare/lib/js/angular-route-1.2.15.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/test/wbfolder.wbl",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/js/services.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/js/directives.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/js/app.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/js/controllers.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/js/mashup.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/config/config.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/lib/js/axisAPI.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/index.html",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/Spikes-AppTemplate/app/css/undoqlik.css",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/TwoDimScatter/twodimscatter.css",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/TwoDimScatter/twodimscatter.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/TwoDimScatter/twodimscatter.qext",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/QonnectionsChart/QonnectionsChart.js",
+		"/C/Users/axis/Documents/Qlik/Sense/Extensions/QonnectionsChart/jquery.tagcloud.js",
+		"/C/Users/axis/Documents/GitHub/Exercise-2/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"createFunc",
+			"paintFunc",
+			"prop",
+			"totalSales",
+			"SpikesCtrl",
+			"spikes",
+			"spikesCtrl",
+			"spikesApp",
+			"SpikesCtrl",
+			"spikesApp",
+			"DBJ"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"claimDates",
+			"Healthcare"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2273,
+								2273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/css/style.css",
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/js/controllers.js",
+					"settings":
+					{
+						"buffer_size": 6307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2249,
+								2249
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/js/axisAPI.js",
+					"settings":
+					{
+						"buffer_size": 3602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								348,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/view1.html",
+					"settings":
+					{
+						"buffer_size": 47,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/js/app.js",
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true
+}

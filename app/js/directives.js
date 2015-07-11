@@ -1,5 +1,5 @@
 // Example listbox directive
-spikesApp.directive('listbox',function() {
+Healthcare.directive('listbox',function() {
 
     function link(scope, element, attr) {
         _scope = scope;
@@ -52,6 +52,20 @@ spikesApp.directive('listbox',function() {
 
     }
 
+    return {
+        link: link,
+        restrict: 'E',
+        templateUrl:'app/partials/listbox.html',
+        scope: {
+            field: '=',
+            appPr: '='
+        }
+    }
+});
+
+Healthcare.directive('listbox',function() {
+
+   
     return {
         link: link,
         restrict: 'E',
